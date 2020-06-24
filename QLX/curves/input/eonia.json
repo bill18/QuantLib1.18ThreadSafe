@@ -1,0 +1,64 @@
+{
+	"Deposits": [
+	   {
+	      "calendar" : "TGT",
+	      "rolling"  : "F",
+	      "basis"    : "Act/360",
+	      "month_end": false,
+	      "marks": [
+	          {"tenor": "1d", "fixing":0, "value":0.0004}, 
+	          {"tenor": "1d", "fixing":1, "value":0.0004}, 
+	          {"tenor": "1d", "fixing":2, "value":0.0004} 
+	      ]
+	   }
+	],
+	"OISs": [
+		{
+		    "index":"Eonia",
+		    "settlementDays":2,
+		    "marks":[
+		            {"tenor":"1W", "value":0.00070},
+		            {"tenor":"2W", "value":0.00069},
+		            {"tenor":"3W", "value":0.00078},
+		            {"tenor":"1M", "value":0.00074}
+		        ]
+		},
+		{
+		    "index":"Eonia",
+		    "marks":[
+					{"start":20130116, "end":20130213, "value":0.000460 },
+					{"start":20130213, "end":20130313, "value":0.000160 },
+					{"start":20130313, "end":20130410, "value":-0.000070},
+					{"start":20130410, "end":20130508, "value":-0.000130},
+					{"start":20130508, "end":20130612, "value":-0.000140}
+		        ]
+		},
+		{
+		    "index":"Eonia",
+		    "settlementDays":2,
+		    "marks":[
+					{"tenor":"15M", "value":0.000020},
+					{"tenor":"18M", "value":0.000080},
+					{"tenor":"21M", "value":0.000210},
+					{"tenor":"2Y" , "value":0.000360},
+					{"tenor":"3Y" , "value":0.001270},
+					{"tenor":"4Y" , "value":0.002740},
+					{"tenor":"5Y" , "value":0.004560},
+					{"tenor":"6Y" , "value":0.006470},
+					{"tenor":"7Y" , "value":0.008270},
+					{"tenor":"8Y" , "value":0.009960},
+					{"tenor":"9Y" , "value":0.011470},
+					{"tenor":"10Y", "value":0.012800},
+					{"tenor":"11Y", "value":0.014040},
+					{"tenor":"12Y", "value":0.015160},
+					{"tenor":"15Y", "value":0.017640},
+					{"tenor":"20Y", "value":0.019390},
+					{"tenor":"25Y", "value":0.020030},
+					{"tenor":"30Y", "value":0.020380}
+		        ]
+		}		
+	],
+	"Turns": [
+			{"day":20121231, "value":0.999994473276139 }
+	]
+}

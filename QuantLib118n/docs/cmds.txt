@@ -1,0 +1,9 @@
+find . -name "*.?pp" -exec sed -i 's/const Settings& settings/Settings\* settings/g' {} \;
+find . -name "*.?pp" -exec sed -i 's/env_\./env_->/g'  {} \;
+find . -name "*.?pp" -exec sed -i 's/settings\./settings->/g'  {} \;
+find . -name "*.?pp" -exec sed -i 's/settings->hpp/settings\.hpp/g'  {} \;
+find . -name "*.?pp" -exec sed -i 's/const Settings&/Settings\*/g' {} \;
+find . -name "*.?pp" -exec sed -i 's/const Settings &/Settings\*/g' {} \;
+find . -name "*.?pp" -exec sed -i 's/const QuantLib::Settings &/QuantLib::Settings\*/g' {} \;
+find . -name "*.?pp" -exec sed -i 's/const QuantLib::Settings&/QuantLib::Settings\*/g' {} \;
+

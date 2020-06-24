@@ -1,0 +1,70 @@
+
+{
+	"engine":"PiecewiseCubicZero",
+	"asOfDate":20200515,
+	"curveName":"FRA_SWAP",
+	"enableExtrapolation":true,
+	"instruments": {
+		"Deposit" : 
+		{
+		    "calendar": "TGT",
+		    "settlementDays": 2,
+		    "rolling": "MF",
+		    "basis": "Act/360",
+		    "month_end": false,        
+			"marks": [
+			    {"tenor":"1W", "value":0.0382},
+			    {"tenor":"1M", "value":0.0372},
+			    {"tenor":"3M", "value":0.0363}
+			]
+		},
+
+		"FRA" : {
+			"fixingDays": 2,
+			"calendar": "TGT",
+			"rolling": "MF",
+			"basis": "Act/360",
+			"month_end": false,
+			"marks": [
+				{"start_month":3, "end_month":6 , "value":0.037125}, 
+			    {"start_month":6, "end_month":9 , "value":0.037125}, 
+			    {"start_month":9, "end_month":12, "value":0.037125}
+			]
+		},
+
+		"Future" : {
+	        "months":3,
+			"calendar": "TGT",
+			"rolling": "MF",
+			"month_end": true,
+			"basis": "Act/360",
+			"marks": [
+			    {"idx_start":20011219, "value":96.2875},
+			    {"idx_start":20020320, "value":96.7875},
+			    {"idx_start":20020619, "value":96.9875},
+			    {"idx_start":20020918, "value":96.6875},
+			    {"idx_start":20021218, "value":96.4875},
+			    {"idx_start":20030319, "value":96.3875},
+			    {"idx_start":20030618, "value":96.2875},
+			    {"idx_start":20030917, "value":96.0875}
+			]
+
+		},
+
+		"Swap" : {
+			"iborIndex":"Euribor,6M",
+			"fixedLegCalendar": "TGT",
+			"fixedLegAdjustment": "Unadjusted",
+			"fixedLegBasis": "Act/360",
+			"fixedLegFrequency": "Annual",
+			"marks": [
+			    {"period": "2Y", "value":0.037125},
+			    {"period": "3Y", "value":0.0398  },
+			    {"period": "5Y", "value":0.0443  },
+			    {"period":"10Y", "value":0.05165 },
+			    {"period":"15Y", "value":0.055175}
+		    ]
+		}
+	}
+}
+	

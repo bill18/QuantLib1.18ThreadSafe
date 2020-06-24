@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="QuantLib118nTestSuite" Version="11000" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Reconciliation>
+    <Regexes/>
+    <Excludepaths/>
+    <Ignorefiles/>
+    <Extensions>
+      <![CDATA[*.cpp;*.c;*.h;*.hpp;*.xrc;*.wxcp;*.fbp]]>
+    </Extensions>
+    <Topleveldir>/home/wenhua/clworkspace/QuantLib118nTestSuite/src</Topleveldir>
+  </Reconciliation>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="src/test-suite/evaluationdatesingleton.hpp"/>
+    <File Name="src/test-suite/evaluationdatesingleton.cpp"/>
+    <File Name="src/test-suite/shortratemodels.cpp"/>
+    <File Name="src/test-suite/zabr.hpp"/>
+    <File Name="src/test-suite/zabr.cpp"/>
+    <File Name="src/test-suite/vpp.hpp"/>
+    <File Name="src/test-suite/vpp.cpp"/>
+    <File Name="src/test-suite/volatilitymodels.hpp"/>
+    <File Name="src/test-suite/volatilitymodels.cpp"/>
+    <File Name="src/test-suite/varianceswaps.hpp"/>
+    <File Name="src/test-suite/varianceswaps.cpp"/>
+    <File Name="src/test-suite/varianceoption.hpp"/>
+    <File Name="src/test-suite/varianceoption.cpp"/>
+    <File Name="src/test-suite/variancegamma.hpp"/>
+    <File Name="src/test-suite/variancegamma.cpp"/>
+    <File Name="src/test-suite/utilities.hpp"/>
+    <File Name="src/test-suite/utilities.cpp"/>
+    <File Name="src/test-suite/unity_test.cpp"/>
+    <File Name="src/test-suite/unity_benchmark.cpp"/>
+    <File Name="src/test-suite/twoassetcorrelationoption.hpp"/>
+    <File Name="src/test-suite/twoassetcorrelationoption.cpp"/>
+    <File Name="src/test-suite/twoassetbarrieroption.hpp"/>
+    <File Name="src/test-suite/twoassetbarrieroption.cpp"/>
+    <File Name="src/test-suite/transformedgrid.hpp"/>
+    <File Name="src/test-suite/transformedgrid.cpp"/>
+    <File Name="src/test-suite/tracing.hpp"/>
+    <File Name="src/test-suite/tracing.cpp"/>
+    <File Name="src/test-suite/tqreigendecomposition.hpp"/>
+    <File Name="src/test-suite/tqreigendecomposition.cpp"/>
+    <File Name="src/test-suite/timeseries.hpp"/>
+    <File Name="src/test-suite/timeseries.cpp"/>
+    <File Name="src/test-suite/timegrid.hpp"/>
+    <File Name="src/test-suite/timegrid.cpp"/>
+    <File Name="src/test-suite/termstructures.hpp"/>
+    <File Name="src/test-suite/termstructures.cpp"/>
+    <File Name="src/test-suite/swingoption.hpp"/>
+    <File Name="src/test-suite/swingoption.cpp"/>
+    <File Name="src/test-suite/swaptionvolstructuresutilities.hpp"/>
+    <File Name="src/test-suite/swaptionvolatilitymatrix.hpp"/>
+    <File Name="src/test-suite/swaptionvolatilitymatrix.cpp"/>
+    <File Name="src/test-suite/swaptionvolatilitycube.hpp"/>
+    <File Name="src/test-suite/swaptionvolatilitycube.cpp"/>
+    <File Name="src/test-suite/swaption.hpp"/>
+    <File Name="src/test-suite/swaption.cpp"/>
+    <File Name="src/test-suite/swapforwardmappings.hpp"/>
+    <File Name="src/test-suite/swapforwardmappings.cpp"/>
+    <File Name="src/test-suite/swap.hpp"/>
+    <File Name="src/test-suite/swap.cpp"/>
+    <File Name="src/test-suite/stats.hpp"/>
+    <File Name="src/test-suite/stats.cpp"/>
+    <File Name="src/test-suite/squarerootclvmodel.hpp"/>
+    <File Name="src/test-suite/squarerootclvmodel.cpp"/>
+    <File Name="src/test-suite/spreadoption.hpp"/>
+    <File Name="src/test-suite/spreadoption.cpp"/>
+    <File Name="src/test-suite/speedlevel.hpp"/>
+    <File Name="src/test-suite/solvers.hpp"/>
+    <File Name="src/test-suite/solvers.cpp"/>
+    <File Name="src/test-suite/sofrfutures.hpp"/>
+    <File Name="src/test-suite/sofrfutures.cpp"/>
+    <File Name="src/test-suite/shortratemodels.hpp"/>
+    <File Name="src/test-suite/schedule.hpp"/>
+    <File Name="src/test-suite/schedule.cpp"/>
+    <File Name="src/test-suite/sampledcurve.hpp"/>
+    <File Name="src/test-suite/sampledcurve.cpp"/>
+    <File Name="src/test-suite/rounding.hpp"/>
+    <File Name="src/test-suite/rounding.cpp"/>
+    <File Name="src/test-suite/rngtraits.hpp"/>
+    <File Name="src/test-suite/rngtraits.cpp"/>
+    <File Name="src/test-suite/riskstats.hpp"/>
+    <File Name="src/test-suite/riskstats.cpp"/>
+    <File Name="src/test-suite/riskneutraldensitycalculator.hpp"/>
+    <File Name="src/test-suite/riskneutraldensitycalculator.cpp"/>
+    <File Name="src/test-suite/rangeaccrual.hpp"/>
+    <File Name="src/test-suite/rangeaccrual.cpp"/>
+    <File Name="src/test-suite/quotes.hpp"/>
+    <File Name="src/test-suite/quotes.cpp"/>
+    <File Name="src/test-suite/quantooption.hpp"/>
+    <File Name="src/test-suite/quantooption.cpp"/>
+    <File Name="src/test-suite/quantlibtestsuite.cpp"/>
+    <File Name="src/test-suite/quantlibbenchmark.cpp"/>
+    <File Name="src/test-suite/piecewisezerospreadedtermstructure.hpp"/>
+    <File Name="src/test-suite/piecewisezerospreadedtermstructure.cpp"/>
+    <File Name="src/test-suite/piecewiseyieldcurve.hpp"/>
+    <File Name="src/test-suite/piecewiseyieldcurve.cpp"/>
+    <File Name="src/test-suite/period.hpp"/>
+    <File Name="src/test-suite/period.cpp"/>
+    <File Name="src/test-suite/pathgenerator.hpp"/>
+    <File Name="src/test-suite/pathgenerator.cpp"/>
+    <File Name="src/test-suite/partialtimebarrieroption.hpp"/>
+    <File Name="src/test-suite/partialtimebarrieroption.cpp"/>
+    <File Name="src/test-suite/paralleltestrunner.hpp"/>
+    <File Name="src/test-suite/pagodaoption.hpp"/>
+    <File Name="src/test-suite/pagodaoption.cpp"/>
+    <File Name="src/test-suite/overnightindexedswap.hpp"/>
+    <File Name="src/test-suite/overnightindexedswap.cpp"/>
+    <File Name="src/test-suite/optionletstripper.hpp"/>
+    <File Name="src/test-suite/optionletstripper.cpp"/>
+    <File Name="src/test-suite/optimizers.hpp"/>
+    <File Name="src/test-suite/optimizers.cpp"/>
+    <File Name="src/test-suite/operators.hpp"/>
+    <File Name="src/test-suite/operators.cpp"/>
+    <File Name="src/test-suite/ode.hpp"/>
+    <File Name="src/test-suite/ode.cpp"/>
+    <File Name="src/test-suite/observable.hpp"/>
+    <File Name="src/test-suite/observable.cpp"/>
+    <File Name="src/test-suite/numericaldifferentiation.hpp"/>
+    <File Name="src/test-suite/numericaldifferentiation.cpp"/>
+    <File Name="src/test-suite/nthtodefault.hpp"/>
+    <File Name="src/test-suite/nthtodefault.cpp"/>
+    <File Name="src/test-suite/nthorderderivativeop.hpp"/>
+    <File Name="src/test-suite/nthorderderivativeop.cpp"/>
+    <File Name="src/test-suite/normalclvmodel.hpp"/>
+    <File Name="src/test-suite/normalclvmodel.cpp"/>
+    <File Name="src/test-suite/noarbsabr.hpp"/>
+    <File Name="src/test-suite/noarbsabr.cpp"/>
+    <File Name="src/test-suite/money.hpp"/>
+    <File Name="src/test-suite/money.cpp"/>
+    <File Name="src/test-suite/mersennetwister.hpp"/>
+    <File Name="src/test-suite/mersennetwister.cpp"/>
+    <File Name="src/test-suite/mclongstaffschwartzengine.hpp"/>
+    <File Name="src/test-suite/mclongstaffschwartzengine.cpp"/>
+    <File Name="src/test-suite/matrices.hpp"/>
+    <File Name="src/test-suite/matrices.cpp"/>
+    <File Name="src/test-suite/markovfunctional.hpp"/>
+    <File Name="src/test-suite/markovfunctional.cpp"/>
+    <File Name="src/test-suite/marketmodel_smmcaplethomocalibration.hpp"/>
+    <File Name="src/test-suite/marketmodel_smmcaplethomocalibration.cpp"/>
+    <File Name="src/test-suite/marketmodel_smmcapletcalibration.hpp"/>
+    <File Name="src/test-suite/marketmodel_smmcapletcalibration.cpp"/>
+    <File Name="src/test-suite/marketmodel_smmcapletalphacalibration.hpp"/>
+    <File Name="src/test-suite/marketmodel_smmcapletalphacalibration.cpp"/>
+    <File Name="src/test-suite/marketmodel_smm.hpp"/>
+    <File Name="src/test-suite/marketmodel_smm.cpp"/>
+    <File Name="src/test-suite/marketmodel_cms.hpp"/>
+    <File Name="src/test-suite/marketmodel_cms.cpp"/>
+    <File Name="src/test-suite/marketmodel.hpp"/>
+    <File Name="src/test-suite/marketmodel.cpp"/>
+    <File Name="src/test-suite/margrabeoption.hpp"/>
+    <File Name="src/test-suite/margrabeoption.cpp"/>
+    <File Name="src/test-suite/main.cpp"/>
+    <File Name="src/test-suite/lowdiscrepancysequences.hpp"/>
+    <File Name="src/test-suite/lowdiscrepancysequences.cpp"/>
+    <File Name="src/test-suite/lookbackoptions.hpp"/>
+    <File Name="src/test-suite/lookbackoptions.cpp"/>
+    <File Name="src/test-suite/linearleastsquaresregression.hpp"/>
+    <File Name="src/test-suite/linearleastsquaresregression.cpp"/>
+    <File Name="src/test-suite/libormarketmodelprocess.hpp"/>
+    <File Name="src/test-suite/libormarketmodelprocess.cpp"/>
+    <File Name="src/test-suite/libormarketmodel.hpp"/>
+    <File Name="src/test-suite/libormarketmodel.cpp"/>
+    <File Name="src/test-suite/lazyobject.hpp"/>
+    <File Name="src/test-suite/lazyobject.cpp"/>
+    <File Name="src/test-suite/jumpdiffusion.hpp"/>
+    <File Name="src/test-suite/jumpdiffusion.cpp"/>
+    <File Name="src/test-suite/interpolations.hpp"/>
+    <File Name="src/test-suite/interpolations.cpp"/>
+    <File Name="src/test-suite/interestrates.hpp"/>
+    <File Name="src/test-suite/interestrates.cpp"/>
+    <File Name="src/test-suite/integrals.hpp"/>
+    <File Name="src/test-suite/integrals.cpp"/>
+    <File Name="src/test-suite/instruments.hpp"/>
+    <File Name="src/test-suite/instruments.cpp"/>
+    <File Name="src/test-suite/inflationvolatility.hpp"/>
+    <File Name="src/test-suite/inflationvolatility.cpp"/>
+    <File Name="src/test-suite/inflationcpiswap.hpp"/>
+    <File Name="src/test-suite/inflationcpiswap.cpp"/>
+    <File Name="src/test-suite/inflationcpicapfloor.hpp"/>
+    <File Name="src/test-suite/inflationcpicapfloor.cpp"/>
+    <File Name="src/test-suite/inflationcpibond.hpp"/>
+    <File Name="src/test-suite/inflationcpibond.cpp"/>
+    <File Name="src/test-suite/inflationcapflooredcoupon.hpp"/>
+    <File Name="src/test-suite/inflationcapflooredcoupon.cpp"/>
+    <File Name="src/test-suite/inflationcapfloor.hpp"/>
+    <File Name="src/test-suite/inflationcapfloor.cpp"/>
+    <File Name="src/test-suite/inflation.hpp"/>
+    <File Name="src/test-suite/inflation.cpp"/>
+    <File Name="src/test-suite/hybridhestonhullwhiteprocess.hpp"/>
+    <File Name="src/test-suite/hybridhestonhullwhiteprocess.cpp"/>
+    <File Name="src/test-suite/himalayaoption.hpp"/>
+    <File Name="src/test-suite/himalayaoption.cpp"/>
+    <File Name="src/test-suite/hestonslvmodel.hpp"/>
+    <File Name="src/test-suite/hestonslvmodel.cpp"/>
+    <File Name="src/test-suite/hestonmodel.hpp"/>
+    <File Name="src/test-suite/hestonmodel.cpp"/>
+    <File Name="src/test-suite/gsr.hpp"/>
+    <File Name="src/test-suite/gsr.cpp"/>
+    <File Name="src/test-suite/gjrgarchmodel.hpp"/>
+    <File Name="src/test-suite/gjrgarchmodel.cpp"/>
+    <File Name="src/test-suite/gaussianquadratures.hpp"/>
+    <File Name="src/test-suite/gaussianquadratures.cpp"/>
+    <File Name="src/test-suite/garch.hpp"/>
+    <File Name="src/test-suite/garch.cpp"/>
+    <File Name="src/test-suite/functions.hpp"/>
+    <File Name="src/test-suite/functions.cpp"/>
+    <File Name="src/test-suite/forwardrateagreement.hpp"/>
+    <File Name="src/test-suite/forwardrateagreement.cpp"/>
+    <File Name="src/test-suite/forwardoption.hpp"/>
+    <File Name="src/test-suite/forwardoption.cpp"/>
+    <File Name="src/test-suite/fittedbonddiscountcurve.hpp"/>
+    <File Name="src/test-suite/fittedbonddiscountcurve.cpp"/>
+    <File Name="src/test-suite/fdsabr.hpp"/>
+    <File Name="src/test-suite/fdsabr.cpp"/>
+    <File Name="src/test-suite/fdmlinearop.hpp"/>
+    <File Name="src/test-suite/fdmlinearop.cpp"/>
+    <File Name="src/test-suite/fdheston.hpp"/>
+    <File Name="src/test-suite/fdheston.cpp"/>
+    <File Name="src/test-suite/fdcev.hpp"/>
+    <File Name="src/test-suite/fdcev.cpp"/>
+    <File Name="src/test-suite/fastfouriertransform.hpp"/>
+    <File Name="src/test-suite/fastfouriertransform.cpp"/>
+    <File Name="src/test-suite/extensibleoptions.hpp"/>
+    <File Name="src/test-suite/extensibleoptions.cpp"/>
+    <File Name="src/test-suite/extendedtrees.hpp"/>
+    <File Name="src/test-suite/extendedtrees.cpp"/>
+    <File Name="src/test-suite/exchangerate.hpp"/>
+    <File Name="src/test-suite/exchangerate.cpp"/>
+    <File Name="src/test-suite/everestoption.hpp"/>
+    <File Name="src/test-suite/everestoption.cpp"/>
+    <File Name="src/test-suite/europeanoption.hpp"/>
+    <File Name="src/test-suite/europeanoption.cpp"/>
+    <File Name="src/test-suite/doublebinaryoption.hpp"/>
+    <File Name="src/test-suite/doublebinaryoption.cpp"/>
+    <File Name="src/test-suite/doublebarrieroption.hpp"/>
+    <File Name="src/test-suite/doublebarrieroption.cpp"/>
+    <File Name="src/test-suite/dividendoption.hpp"/>
+    <File Name="src/test-suite/dividendoption.cpp"/>
+    <File Name="src/test-suite/distributions.hpp"/>
+    <File Name="src/test-suite/distributions.cpp"/>
+    <File Name="src/test-suite/digitaloption.hpp"/>
+    <File Name="src/test-suite/digitaloption.cpp"/>
+    <File Name="src/test-suite/digitalcoupon.hpp"/>
+    <File Name="src/test-suite/digitalcoupon.cpp"/>
+    <File Name="src/test-suite/defaultprobabilitycurves.hpp"/>
+    <File Name="src/test-suite/defaultprobabilitycurves.cpp"/>
+    <File Name="src/test-suite/daycounters.hpp"/>
+    <File Name="src/test-suite/daycounters.cpp"/>
+    <File Name="src/test-suite/dates.hpp"/>
+    <File Name="src/test-suite/dates.cpp"/>
+    <File Name="src/test-suite/curvestates.hpp"/>
+    <File Name="src/test-suite/curvestates.cpp"/>
+    <File Name="src/test-suite/creditriskplus.hpp"/>
+    <File Name="src/test-suite/creditriskplus.cpp"/>
+    <File Name="src/test-suite/creditdefaultswap.hpp"/>
+    <File Name="src/test-suite/creditdefaultswap.cpp"/>
+    <File Name="src/test-suite/covariance.hpp"/>
+    <File Name="src/test-suite/covariance.cpp"/>
+    <File Name="src/test-suite/convertiblebonds.hpp"/>
+    <File Name="src/test-suite/convertiblebonds.cpp"/>
+    <File Name="src/test-suite/compoundoption.hpp"/>
+    <File Name="src/test-suite/compoundoption.cpp"/>
+    <File Name="src/test-suite/compiledboostversion.hpp"/>
+    <File Name="src/test-suite/compiledboostversion.cpp"/>
+    <File Name="src/test-suite/commodityunitofmeasure.hpp"/>
+    <File Name="src/test-suite/commodityunitofmeasure.cpp"/>
+    <File Name="src/test-suite/cmsspread.hpp"/>
+    <File Name="src/test-suite/cmsspread.cpp"/>
+    <File Name="src/test-suite/cms.hpp"/>
+    <File Name="src/test-suite/cms.cpp"/>
+    <File Name="src/test-suite/cliquetoption.hpp"/>
+    <File Name="src/test-suite/cliquetoption.cpp"/>
+    <File Name="src/test-suite/chooseroption.hpp"/>
+    <File Name="src/test-suite/chooseroption.cpp"/>
+    <File Name="src/test-suite/cdsoption.hpp"/>
+    <File Name="src/test-suite/cdsoption.cpp"/>
+    <File Name="src/test-suite/cdo.hpp"/>
+    <File Name="src/test-suite/cdo.cpp"/>
+    <File Name="src/test-suite/catbonds.hpp"/>
+    <File Name="src/test-suite/catbonds.cpp"/>
+    <File Name="src/test-suite/cashflows.hpp"/>
+    <File Name="src/test-suite/cashflows.cpp"/>
+    <File Name="src/test-suite/capflooredcoupon.hpp"/>
+    <File Name="src/test-suite/capflooredcoupon.cpp"/>
+    <File Name="src/test-suite/capfloor.hpp"/>
+    <File Name="src/test-suite/capfloor.cpp"/>
+    <File Name="src/test-suite/calendars.hpp"/>
+    <File Name="src/test-suite/calendars.cpp"/>
+    <File Name="src/test-suite/businessdayconventions.hpp"/>
+    <File Name="src/test-suite/businessdayconventions.cpp"/>
+    <File Name="src/test-suite/brownianbridge.hpp"/>
+    <File Name="src/test-suite/brownianbridge.cpp"/>
+    <File Name="src/test-suite/bonds.hpp"/>
+    <File Name="src/test-suite/bonds.cpp"/>
+    <File Name="src/test-suite/blackformula.hpp"/>
+    <File Name="src/test-suite/blackformula.cpp"/>
+    <File Name="src/test-suite/blackdeltacalculator.hpp"/>
+    <File Name="src/test-suite/blackdeltacalculator.cpp"/>
+    <File Name="src/test-suite/binaryoption.hpp"/>
+    <File Name="src/test-suite/binaryoption.cpp"/>
+    <File Name="src/test-suite/bermudanswaption.hpp"/>
+    <File Name="src/test-suite/bermudanswaption.cpp"/>
+    <File Name="src/test-suite/batesmodel.hpp"/>
+    <File Name="src/test-suite/batesmodel.cpp"/>
+    <File Name="src/test-suite/basketoption.hpp"/>
+    <File Name="src/test-suite/basketoption.cpp"/>
+    <File Name="src/test-suite/basismodels.hpp"/>
+    <File Name="src/test-suite/basismodels.cpp"/>
+    <File Name="src/test-suite/barrieroption.hpp"/>
+    <File Name="src/test-suite/barrieroption.cpp"/>
+    <File Name="src/test-suite/autocovariances.hpp"/>
+    <File Name="src/test-suite/autocovariances.cpp"/>
+    <File Name="src/test-suite/assetswap.hpp"/>
+    <File Name="src/test-suite/assetswap.cpp"/>
+    <File Name="src/test-suite/asianoptions.hpp"/>
+    <File Name="src/test-suite/asianoptions.cpp"/>
+    <File Name="src/test-suite/array.hpp"/>
+    <File Name="src/test-suite/array.cpp"/>
+    <File Name="src/test-suite/andreasenhugevolatilityinterpl.hpp"/>
+    <File Name="src/test-suite/andreasenhugevolatilityinterpl.cpp"/>
+    <File Name="src/test-suite/amortizingbond.hpp"/>
+    <File Name="src/test-suite/amortizingbond.cpp"/>
+    <File Name="src/test-suite/americanoption.hpp"/>
+    <File Name="src/test-suite/americanoption.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC-9" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall -DBOOST_TEST_DYN_LINK -DHAVE_CONFIG_H" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="/home/wenhua/clworkspace/QuantLib118n/src"/>
+        <IncludePath Value="/home/wenhua/clworkspace/QuantLib118nTestSuite/src"/>
+        <IncludePath Value="/home/wenhua/clworkspace/QuantLib118nTestSuite/src/test-suite"/>
+      </Compiler>
+      <Linker Options="-pthread" Required="yes">
+        <LibraryPath Value="/home/wenhua/clworkspace/build-Debug/lib"/>
+        <Library Value="boost_unit_test_framework"/>
+        <Library Value="boost_timer"/>
+        <Library Value="boost_thread"/>
+        <Library Value="boost_system"/>
+        <Library Value="QuantLib118n"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CodeLite Make Generator"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC-9" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CodeLite Make Generator"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

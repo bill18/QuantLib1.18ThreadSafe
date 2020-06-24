@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="QuantLib118nUnitTest" Version="11000" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Reconciliation>
+    <Regexes/>
+    <Excludepaths/>
+    <Ignorefiles/>
+    <Extensions>
+      <![CDATA[*.cpp;*.c;*.h;*.hpp;*.xrc;*.wxcp;*.fbp]]>
+    </Extensions>
+    <Topleveldir>/home/wenhua/clworkspace/QuantLib118nUnitTest</Topleveldir>
+  </Reconciliation>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../QuantLib118nTestSuite/src/test-suite/termstructures.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/evaluationdatesingleton.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swingoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swaptionvolatilitymatrix.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swaptionvolatilitycube.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swaption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swapforwardmappings.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swap.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/stats.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/squarerootclvmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/spreadoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/solvers.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/sofrfutures.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/shortratemodels.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/schedule.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/sampledcurve.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/quotes.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/quantooption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/piecewisezerospreadedtermstructure.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/piecewiseyieldcurve.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/period.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/pathgenerator.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/partialtimebarrieroption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/pagodaoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/rounding.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/rngtraits.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/riskstats.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/riskneutraldensitycalculator.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/rangeaccrual.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/twoassetcorrelationoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/twoassetbarrieroption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/transformedgrid.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/tracing.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/tqreigendecomposition.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/timeseries.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/timegrid.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/overnightindexedswap.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/optionletstripper.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/optimizers.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/operators.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/ode.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/observable.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/vpp.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/volatilitymodels.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/varianceswaps.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/varianceoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/variancegamma.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/zabr.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/numericaldifferentiation.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/nthtodefault.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/nthorderderivativeop.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/normalclvmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/noarbsabr.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/money.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/mersennetwister.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/mclongstaffschwartzengine.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/matrices.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/markovfunctional.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smmcaplethomocalibration.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smmcapletcalibration.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smmcapletalphacalibration.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smm.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_cms.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/margrabeoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/lowdiscrepancysequences.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/lookbackoptions.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/linearleastsquaresregression.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/libormarketmodelprocess.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/libormarketmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/lazyobject.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/jumpdiffusion.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/interpolations.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/interestrates.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/integrals.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/instruments.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationvolatility.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcpiswap.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcpicapfloor.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcpibond.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcapflooredcoupon.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcapfloor.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflation.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/hybridhestonhullwhiteprocess.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/himalayaoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/hestonslvmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/hestonmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/gsr.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/gjrgarchmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/gaussianquadratures.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/garch.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/functions.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/forwardrateagreement.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/forwardoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fittedbonddiscountcurve.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdsabr.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdmlinearop.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdheston.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdcev.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fastfouriertransform.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/extensibleoptions.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/extendedtrees.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/exchangerate.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/everestoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/europeanoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/doublebinaryoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/doublebarrieroption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/dividendoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/distributions.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/digitaloption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/digitalcoupon.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/defaultprobabilitycurves.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/daycounters.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/dates.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/curvestates.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/creditriskplus.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/creditdefaultswap.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/covariance.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/convertiblebonds.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/compoundoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/compiledboostversion.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/commodityunitofmeasure.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cmsspread.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cms.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cliquetoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/chooseroption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cdsoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cdo.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/catbonds.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cashflows.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/capflooredcoupon.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/capfloor.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/calendars.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/businessdayconventions.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/brownianbridge.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/bonds.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/blackformula.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/blackdeltacalculator.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/binaryoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/bermudanswaption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/batesmodel.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/basketoption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/basismodels.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/barrieroption.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/autocovariances.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/assetswap.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/asianoptions.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/array.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/andreasenhugevolatilityinterpl.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/amortizingbond.cpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/americanoption.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="../QuantLib118nTestSuite/src/test-suite/evaluationdatesingleton.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swingoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swaptionvolstructuresutilities.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swaptionvolatilitymatrix.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swaptionvolatilitycube.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swaption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swapforwardmappings.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/swap.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/stats.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/squarerootclvmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/spreadoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/solvers.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/sofrfutures.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/shortratemodels.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/schedule.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/sampledcurve.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/quotes.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/quantooption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/piecewisezerospreadedtermstructure.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/piecewiseyieldcurve.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/period.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/pathgenerator.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/partialtimebarrieroption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/pagodaoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/rounding.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/rngtraits.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/riskstats.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/riskneutraldensitycalculator.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/rangeaccrual.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/twoassetcorrelationoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/twoassetbarrieroption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/transformedgrid.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/tracing.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/tqreigendecomposition.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/timeseries.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/timegrid.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/termstructures.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/overnightindexedswap.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/optionletstripper.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/optimizers.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/operators.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/ode.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/observable.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/vpp.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/volatilitymodels.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/varianceswaps.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/varianceoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/variancegamma.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/zabr.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/numericaldifferentiation.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/nthtodefault.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/nthorderderivativeop.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/normalclvmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/noarbsabr.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/money.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/mersennetwister.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/mclongstaffschwartzengine.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/matrices.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/markovfunctional.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smmcaplethomocalibration.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smmcapletcalibration.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smmcapletalphacalibration.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_smm.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel_cms.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/marketmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/margrabeoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/lowdiscrepancysequences.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/lookbackoptions.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/linearleastsquaresregression.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/libormarketmodelprocess.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/libormarketmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/lazyobject.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/jumpdiffusion.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/interpolations.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/interestrates.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/integrals.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/instruments.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationvolatility.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcpiswap.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcpicapfloor.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcpibond.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcapflooredcoupon.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflationcapfloor.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/inflation.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/hybridhestonhullwhiteprocess.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/himalayaoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/hestonslvmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/hestonmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/gsr.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/gjrgarchmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/gaussianquadratures.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/garch.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/functions.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/forwardrateagreement.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/forwardoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fittedbonddiscountcurve.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdsabr.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdmlinearop.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdheston.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fdcev.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/fastfouriertransform.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/extensibleoptions.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/extendedtrees.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/exchangerate.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/everestoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/europeanoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/doublebinaryoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/doublebarrieroption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/dividendoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/distributions.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/digitaloption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/digitalcoupon.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/defaultprobabilitycurves.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/daycounters.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/dates.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/curvestates.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/creditriskplus.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/creditdefaultswap.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/covariance.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/convertiblebonds.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/compoundoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/compiledboostversion.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/commodityunitofmeasure.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cmsspread.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cms.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cliquetoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/chooseroption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cdsoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cdo.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/catbonds.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/cashflows.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/capflooredcoupon.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/capfloor.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/calendars.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/businessdayconventions.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/brownianbridge.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/bonds.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/blackformula.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/blackdeltacalculator.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/binaryoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/bermudanswaption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/batesmodel.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/basketoption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/basismodels.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/barrieroption.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/autocovariances.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/assetswap.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/asianoptions.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/array.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/andreasenhugevolatilityinterpl.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/amortizingbond.hpp"/>
+    <File Name="../QuantLib118nTestSuite/src/test-suite/americanoption.hpp"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC-9" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-fPIC" C_Options="-g" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="/home/wenhua/clworkspace/QuantLib118n/src"/>
+        <IncludePath Value="/home/wenhua/clworkspace/QuantLib118nTestSuite/src"/>
+        <IncludePath Value="/home/wenhua/clworkspace/QuantLib118nTestSuite/src/test-suite"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/home/wenhua/clworkspace/build-Debug/lib"/>
+        <Library Value="QuantLib118n"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="lib$(ProjectName).so" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CodeLite Make Generator"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC-9" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CodeLite Make Generator"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

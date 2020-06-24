@@ -1,0 +1,24 @@
+{
+	"Bonds":
+			{
+			   "basis":"Act/Act",
+			   "calendar":"USD",
+			   "rolling":"F",
+			   "month_end": false,
+			   "settlement_days": 0,
+			   "face_amount": 100.0,
+			   "frequency": "Semiannual",
+			   "marks":[
+			     {"issue_date":20150625, "maturity":20151224, "coupon":0.000000, "price":99.993500  },
+			     {"issue_date":20150827, "maturity":20160225, "coupon":0.000000, "price":99.957600  },
+			     {"issue_date":20150528, "maturity":20160526, "coupon":0.000000, "price":99.811900  },
+			     {"issue_date":20151112, "maturity":20161110, "coupon":0.000000, "price":99.547200  },
+			     {"issue_date":20151130, "maturity":20171130, "coupon":0.008750, "price":99.886700  },
+			     {"issue_date":20151116, "maturity":20181115, "coupon":0.012500, "price":100.066400 },
+			     {"issue_date":20151130, "maturity":20201130, "coupon":0.016250, "price":99.871100  },
+			     {"issue_date":20151130, "maturity":20221130, "coupon":0.020000, "price":100.054700 },
+			     {"issue_date":20151116, "maturity":20251115, "coupon":0.022500, "price":100.304700 },
+			     {"issue_date":20151116, "maturity":20451115, "coupon":0.030000, "price":100.226600 },
+			   ]
+			}	
+}
